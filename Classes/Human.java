@@ -1,3 +1,5 @@
+package Classes;
+
 public class Human {
     public int Age;
     public double Height;
@@ -13,6 +15,5 @@ public class Human {
         this.Height = Height;
         this.Weight = Weight;
         this.Name = Name;
-
     }
 }
