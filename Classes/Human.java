@@ -32,7 +32,8 @@ public class Human {
     public void atGym() {
         System.out.println(Name + " at gym");
     }
-    public void speeking(){
+
+    public void speeking() {
         System.out.println(Name + " is speaking");
     }
 }
