@@ -21,6 +21,14 @@ public class Human {
         System.out.println(Name + " is sleeping");
     }
 
+    public void wakeUp(boolean isSleeping) {
+        if (isSleeping == true) {
+            System.out.println(Name + " is awakened");
+        } else {
+            System.out.println(Name + " is sleeping");
+        }
+    }
+
     public void walking() {
         System.out.println(Name + " is walking");
     }
@@ -36,4 +44,7 @@ public class Human {
     public void speeking() {
         System.out.println(Name + " is speaking");
     }
+
+
+
 }
