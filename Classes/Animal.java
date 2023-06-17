@@ -1,7 +1,7 @@
 package Classes;
 
 public class Animal {
-    public String species;
+    private String species;
     public double weight;
     public double height;
     public String name;
@@ -13,6 +13,13 @@ public class Animal {
         this.name = name;
     }
 
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
 
 }
 
