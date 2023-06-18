@@ -17,6 +17,38 @@ public class Human {
         this.Name = Name;
     }
 
+    public int getAge() {
+        return Age;
+    }
+
+    public void setAge(int age) {
+        Age = age;
+    }
+
+    public double getHeight() {
+        return Height;
+    }
+
+    public void setHeight(double height) {
+        Height = height;
+    }
+
+    public double getWeight() {
+        return Weight;
+    }
+
+    public void setWeight(double weight) {
+        Weight = weight;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
     public void sleeping() {
         System.out.println(Name + " is sleeping");
     }
