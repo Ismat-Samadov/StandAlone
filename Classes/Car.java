@@ -4,7 +4,8 @@ public class Car {
     private String model;
     private int year;
     private int doors;
-    private int price;
+    private double price;
+    private boolean hasFuel;
 
     public Car(String model, int year, int doors, int price) {
         this.model = model;
@@ -37,16 +38,18 @@ public class Car {
         this.doors = doors;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
     public void start() {
-        System.out.println(model + " 's engine turned on !!!");
+        if (hasFuel) {
+            System.out.println(model + " 's engine turned on !!!");
+        }
     }
 
     public void stop() {
