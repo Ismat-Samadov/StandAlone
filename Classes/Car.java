@@ -44,4 +44,20 @@ public class Car {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    public void start() {
+        System.out.println(model + " 's engine turned on !!!");
+    }
+
+    public void stop() {
+        System.out.println(model + " 's engine turned off !!!");
+    }
+
+    public void turnLeft() {
+        System.out.println(model + " turned left !!!");
+    }
+
+    public void turnRight() {
+        System.out.println(model + " turned right !!!");
+    }
 }
