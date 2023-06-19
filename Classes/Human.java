@@ -1,10 +1,10 @@
 package Classes;
 
 public class Human {
-    public int Age;
-    public double Height;
-    public double Weight;
-    public String Name;
+    private int Age;
+    private double Height;
+    private double Weight;
+    private String Name;
 
 
     public Human() {

@@ -22,7 +22,7 @@ public class Animal {
     }
 
     public double getWeight() {
-        return weight; 
+        return weight;
     }
 
     public void setWeight(double weight) {
@@ -37,7 +37,7 @@ public class Animal {
         this.height = height;
     }
 
-    public String getName() {
+    public String getName(){
         return name;
     }
 
