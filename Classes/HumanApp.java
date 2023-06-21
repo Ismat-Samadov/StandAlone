@@ -10,6 +10,11 @@ public class HumanApp {
         QismatS.walking();
         QismatS.speaking();
         IsmatS.wakeUp(true);
+        int a =555;
+        String b = "Ismat";
+
+        System.out.println(b.hashCode());
+        System.out.println(Integer.hashCode(a));
     }
 
 

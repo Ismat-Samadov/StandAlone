@@ -54,7 +54,7 @@ public class Human {
     }
 
     public void wakeUp(boolean isSleeping) {
-        if (isSleeping == true) {
+        if (isSleeping) {
             System.out.println(Name + " is awakened");
         } else {
             System.out.println(Name + " is sleeping");
