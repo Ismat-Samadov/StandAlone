@@ -8,7 +8,7 @@ public class HumanApp {
         Human QismatS = new Human(27, 78.0, 1.87, "Qismat");
         IsmatS.sleeping();
         QismatS.walking();
-        QismatS.speeking();
+        QismatS.speaking();
         IsmatS.wakeUp(true);
     }
 
