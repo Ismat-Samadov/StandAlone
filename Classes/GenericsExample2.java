@@ -20,22 +20,7 @@ class MathUtils2<T extends Number> {
     }
 }
 
-class Pair2<K, V> {
-    private final K key;
-    private final V value;
-
-    public Pair2(K key, V value) {
-        this.key = key;
-        this.value = value;
-    }
-
-    public K getKey() {
-        return key;
-    }
-
-    public V getValue() {
-        return value;
-    }
+record Pair2<K, V>(K key, V value) {
 }
 
 public class GenericsExample2 {
@@ -79,8 +64,8 @@ public class GenericsExample2 {
 
         // Multiple type parameters example
         Pair2<String, Integer> pair = new Pair2<>("Key", 100);
-        String key = pair.getKey();
-        Integer val = pair.getValue();
+        String key = pair.key();
+        Integer val = pair.value();
         System.out.println("Key: " + key + ", Value: " + val);
 
         // Generic method example
