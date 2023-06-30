@@ -55,6 +55,10 @@ public class SearchExample {
         } else {
             System.out.println("Linear Search: Target found at index " + linearSearchResult);
         }
+
+        // Time Complexity Analysis
+        System.out.println("Binary Search Time Complexity: O(log n), Ω(1)");
+        System.out.println("Linear Search Time Complexity: O(n), Ω(1)");
     }
 }
 
