@@ -30,27 +30,27 @@ class Person5 {
 }
 
 // Define the AgeComparator class to compare Person objects based on age
-class AgeComparator implements Comparator<Person> {
+class AgeComparator implements Comparator<Person5> {
     @Override
-    public int compare(Person person1, Person person2) {
+    public int compare(Person5 person1, Person5 person2) {
         return person1.getAge() - person2.getAge();
     }
 }
 
 public class ComparatorExample {
     public static void main(String[] args) {
-        // Create a list of Person objects
-        List<Person> people = new ArrayList<>();
-        people.add(new Person("Alice", 25));
-        people.add(new Person("Bob", 30));
-        people.add(new Person("Charlie", 20));
+        // Create a list of Person5 objects
+        List<Person5> people = new ArrayList<>();
+        people.add(new Person5("Alice", 25));
+        people.add(new Person5("Bob", 30));
+        people.add(new Person5("Charlie", 20));
 
         // Sort the list based on age using AgeComparator
         AgeComparator ageComparator = new AgeComparator();
         Collections.sort(people, ageComparator);
 
         // Print the sorted list
-        for (Classes.Person person : people) {
+        for (Person5 person : people) {
             System.out.println(person);
         }
     }
