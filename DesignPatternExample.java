@@ -1,3 +1,5 @@
+package Classes;
+
 // Singleton Pattern
 class Singleton {
     private static Singleton instance;

@@ -1,2 +1,0 @@
-# StandAlone
-JAVA
